@@ -77,21 +77,15 @@
 
             <div id="code-example">
                 <h2 class="text-lg font-semibold border-b pb-2 mb-2">Code Example</h2>
-                <pre class="bg-gray-100 p-4 rounded text-sm overflow-x-auto"><code>// code goes through each character of src4 and adds an @ after it.
-for (let i = 0; i  &lt src4.length; i++) { 
-    let symbol = src4[i]; 
-    result5 = result5 + symbol + "@"; 
-}
-console.log(result5);</code></pre>
+                <pre class="bg-gray-100 p-4 rounded text-sm overflow-x-auto"><code class="language-js">
+                    for (let i = 0; i &lt; src4.length; i++) {
+                        const symbol = src4[i];
+                        result5 += symbol + "@";
+                    }
+                    console.log(result5);
+                </code> 
+            </pre>
             </div>
-            <script>
-                for (let i = 0; i < src4.length; i++) {
-                    const symbol = src4[i];
-                    result5 += symbol + "@";
-                }
-                console.log(result5);
-            </script>
-
             <div id="education">
                 <h2 class="text-lg font-semibold border-b pb-2 mb-2">Education</h2>
                 <ul class="list-disc list-inside text-sm">
