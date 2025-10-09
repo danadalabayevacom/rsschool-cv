@@ -1,0 +1,73 @@
+/* ---------------- Global / Layout ---------------- */
+.bg-slate-100 { background-color: #f1f5f9; }
+.bg-white { background-color: #ffffff; }
+.text-gray-800 { color: #1f2937; }
+.text-gray-700 { color: #374151; }
+.text-blue-600 { color: #2563eb; }
+.text-red-500 { color: #ef4444; }
+.h-screen { height: 100vh; }
+.font-sans { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+/* ---------------- Container ---------------- */
+.max-w-3xl { max-width: 768px; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+.shadow-lg { box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1); }
+.rounded-2xl { border-radius: 1rem; }
+.p-8 { padding: 2rem; }
+.mt-10 { margin-top: 2.5rem; }
+
+/* ---------------- Header ---------------- */
+.flex { display: flex; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.gap-6 { gap: 1.5rem; }
+.border-b { border-bottom: 1px solid #e5e7eb; }
+.rounded-full { border-radius: 9999px; }
+.w-40 { width: 10rem; }
+.h-40 { height: 10rem; }
+.object-cover { object-fit: cover; }
+.text-2xl { font-size: 1.5rem; line-height: 2rem; }
+.font-bold { font-weight: 700; }
+.text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+
+/* ---------------- Navigation ---------------- */
+.mt-4 { margin-top: 1rem; }
+.flex-wrap { flex-wrap: wrap; }
+.gap-4 { gap: 1rem; }
+.hover\:underline:hover { text-decoration: underline; }
+
+/* ---------------- Main Sections ---------------- */
+.mt-6 { margin-top: 1.5rem; }
+.space-y-8 > * + * { margin-top: 2rem; } /* only between children */
+.font-semibold { font-weight: 600; }
+.pb-2 { padding-bottom: 0.5rem; }
+.mb-2 { margin-bottom: 0.5rem; }
+.text-sm { font-size: 0.875rem; line-height: 1.25rem; }
+.list-disc { list-style-type: disc; }
+.list-inside { list-style-position: inside; }
+
+/* ---------------- Links ---------------- */
+.hover\:shadow-md:hover { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.hover\:opacity-80:hover { opacity: 0.8; }
+
+/* ---------------- Code Example ---------------- */
+.bg-gray-100 { background-color: #f3f4f6; }
+.p-4 { padding: 1rem; }
+.rounded { border-radius: 0.25rem; }
+.overflow-x-auto { overflow-x: auto; }
+
+/* ---------------- Footer ---------------- */
+.mt-8 { margin-top: 2rem; }
+.border-t { border-top: 1px solid #e5e7eb; }
+.pt-4 { padding-top: 1rem; }
+.flex-col { flex-direction: column; }
+.md\:flex-row { flex-direction: row; } /* need media query below */
+.gap-2 { gap: 0.5rem; }
+.gap-4 { gap: 1rem; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+
+/* ---------------- Responsive ---------------- */
+@media (min-width: 768px) {
+    .md\:flex-row { flex-direction: row; }
+}
